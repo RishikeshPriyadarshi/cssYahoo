@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>CSS Units</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #box{
+                border: 1px solid black;
+                width: 600px;
+                height: 600px;
+            }
+            
+            #box1{
+                border: 1px solid black;
+                background: papayawhip;
+
+                /* percent(%) is Relative */
+                width: 20%;/* it is taking 20% of 600 (the immediate parent box)
+                it is taking its parent-width NOT window-width */
+                height: 300px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Darshi : CSS Units</h1>
+
+        <div id="box">
+            <div id="box1"></div>
+        </div>
+    </body>
+</html>

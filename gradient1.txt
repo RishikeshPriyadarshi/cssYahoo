@@ -1,0 +1,36 @@
+>>GRADIENT property is used when we want to use more than one color in the BACKGROUND
+
+>>Types of GRADIENT
+(i)-Linear Gradient-->It goes from one side to other
+    like Top to Bottom,Left to Right,Right to Left,Bottom to Top
+
+    means  it goes from left to Right
+    i.e Top Left Right Right Bottom respectively will be in dark shade.
+
+
+(ii)-Radial Gradient-->>In this we will start(shade) from any point or the center
+    and it will may form center or ecclipse
+
+
+(iii)-Repeating Linear Gradient-->
+
+
+(iv)-Repeating Radial Gradient
+
+
+>>>When direction is not mentioned it(color) will go from top to Bottom
+
+
+>>In Radial-Gradient we can define the shape too like circle,ellipse etc
+
+>>In Radial-Gradient we can diffrent sizes also like,
+farthest side,closest side,  farthest corner,closest corner...
+
+
+in closest-side it will make circle..
+
+in farthest side it will make ellipse..
+
+>>IN Radial-Gradient color will start from center and it will go around it..
+
+>>NOTE::Repeating works only when we define the the color with percentage...

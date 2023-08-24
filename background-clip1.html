@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Background Clip</title>
+
+        <title>Its relation is from Bg color means how to show color to BG</title>
+        <title>It is somehow like the prev property of BG-origin(whose relation was from Bg-image)</title>
+
+        <title>BG-clip has 3 values</title>
+        <title>1.Padding-box 2.Border-box 3.Content-box 4.Text(Experimental)</title>
+
+        <title>Content-box</title>
+        <title> white-Color will be shown only to the content covering area</title>
+        <style>
+            body{
+                background-color:slategrey;
+            }
+
+            h1{
+                color:white;
+            }
+
+            #box{
+                width:800px;
+                height:300px;
+                padding:30px;
+                color:black;
+                text-align:justify;
+                border:20px dotted black;
+                background-color: white;
+
+                background-clip:content-box;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Darshi : CSS Background-clip</h1>
+
+        <div id="box">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </div>
+    </body>
+</html>

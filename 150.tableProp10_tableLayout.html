@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Table Properties</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            table{
+                width: 300px;
+
+                table-layout: auto;
+
+                border-collapse: collapse;
+            }
+            table, td, th{
+                border: 1px solid black;
+            }
+            td,th{
+                vertical-align:top;
+
+                padding:5px 20px;
+            }
+            /*th{
+                padding: 10px;
+            }*/
+
+
+            /*  CAPTION-SIDE prop. is used to change alignment of Caption*/
+            caption{
+                caption-side: bottom;
+            }
+            tr:hover{
+                background: gray;
+            }
+
+            tr:nth-child(even){
+                background: ghostwhite;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Darshi : CSS Table Properties</h1>
+
+        <table>
+            <caption>Employee Record</caption>
+            <tr>
+                <th>First-name</th>
+                <th>Last-name</th>
+                <th>Savings</th>
+            </tr>
+
+            <tr>
+                <td>Mohan Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                <td>Kumar</td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td>Sohum</td>
+                <td>Kumar</td>
+                <td>$200</td>
+            </tr>
+
+            <tr>
+                <td>Salim</td>
+                <td>Khan</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>Khan</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>Khan</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>Khan</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>Khan</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>Khan</td>
+                <td>$300</td>
+            </tr>
+
+        </table>
+    </body>
+</html>

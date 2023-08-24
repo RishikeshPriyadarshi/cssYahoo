@@ -1,0 +1,81 @@
+To make CSS variables 
+we have to use Sudo Class-->>> root
+
+*** root is Global it makes Global Variable..
+
+i.e. //sudo class root -- To make sudo class we will take hyphen(--) 2 times 
+with the variable name..
+ex: --main-color:red;
+
+:root{
+
+}
+
+whatever varibales we make inside root we can use througout the class anywhere..
+
+
+for example:
+
+:root{
+    --main-color : red; 
+}
+
+   >>here the name of VARIABLE is main-color and inside that its value is red 
+      and now we can use this color anywhere in the class as many times as we want
+
+    > suppose we have used the red color 10 times in class and if we change once 
+     the color in the root class , it will automatically get changed everywhere
+
+
+
+     ******
+
+     /*
+        Inside sudo-class root we can variables as many we want 100,50 whtaever we want
+        and then We can CALL it as many times as we want
+     */
+
+     How To Use:
+
+     :root{
+        --main-color:red; //variable Defining or Definition
+     }
+
+     .classA{
+        color:var(--main-color); //Here we r calling the funcn var
+
+     }
+
+     .classB{
+        color:var(--main-color); //Calling Variable
+     }
+
+     .classC{
+        background-color: var(--main-color); //Calling Variable
+     }
+
+
+
+
+NOTE:When we make the variables under "root", it becomes Global...
+     Global means we can use that Variable anywhere in the Website... 
+
+
+
+**************** *******************
+
+When we want to use our variable in the limited area then we give the "Scope:LOCAL"
+
+Example:
+.classA{
+    --main-color:red; // when we make the "Variable" inside the class then 
+                      //Scope is Local means it will work only in classA...
+    color: var(--main-color);
+}
+
+.classA a{
+    background-color:var(--main-color);
+}
+
+
+Note: "When we make the "VARIABLE" inside the class then scope is LOCAL".. 

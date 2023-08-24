@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Background Origin Values</title>
+        <title>it is of 3 types</title>
+        <title>1.Padding-box 2.Border-box 3.Content-box</title>
+
+        <title>Border-box</title>
+
+        <title>Actually Border-box starts the image from box instead of paddng or content  </title>
+
+        <style>
+            
+            body{
+                background:tan;
+            }
+
+            #box{
+                width:800px;
+                height:600px;
+                padding:25px;
+
+                text-align:justify;
+
+                border:20px dotted black;
+
+                background-color: white;
+                background-image:url(baty.jpeg);
+                background-repeat:no-repeat;
+                background-size:200px;
+
+                background-origin:border-box;
+
+
+            }
+            p{
+                margin:0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Darshi : CSS Background-Origin </h1>
+
+        <div id="box">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+        </div>
+
+    </body>
+</html>

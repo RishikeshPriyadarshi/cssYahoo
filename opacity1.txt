@@ -1,0 +1,9 @@
+>>We use Opacity property to make an tag of html transparent
+
+>>when we use rgba only text(or background) get transparent not image
+
+
+>>when we use opacity whole div get trasparent both text and image..
+
+
+>>rgba is new property came in css 3.0

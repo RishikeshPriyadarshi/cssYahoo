@@ -1,0 +1,180 @@
+
+<html>
+    <head>
+        <title>Basic Layout</title>
+        <style>
+            body{
+                font-family:arial, helvetica;
+                background: slategray;
+
+                /* to fill the gap  between body and upper part */
+                margin: 0;
+                padding: 0;
+
+            }
+            #wrapper{
+                border: 0px solid black;
+                width: 1000px;
+                background: white;
+                /* Margin is 0 from up an down and Auto will center from left and right*/
+                margin: 0 auto;
+            }
+            #header{
+                background: crimson;
+
+                color: white;
+
+                height: 100px;
+                
+            }
+
+            #header h1{
+                padding:30px 0 0 20px ;
+            }
+
+            #menu{
+                background: lightsalmon;
+            }        
+
+            #menu ul{
+                margin: 0;
+                padding: 0;
+            }
+
+            #menu li{
+/* here we r making sudo class hover so that when we put cursor on it B.g changes*/
+
+                display: block;
+
+                padding: 15px 13px;
+
+                /* to remove underline from anchor tags*/
+                text-decoration: none;
+
+                color: black;
+
+            }
+
+            /* here we r making sudo class hover so that when we put cursor on it B.g changes*/
+
+            #menu li a:hover{
+
+                background: crimson;
+
+                color:white;
+            }
+
+            #content{
+                width: 800px;
+
+                min-height: 500px;
+
+                padding: 15px;
+                box-sizing: border-box;
+
+                float: left;
+            }
+
+            #sidebar{
+                background:lightblue ;
+
+                min-height: 500px;
+
+                width: 200px;
+
+                float: right;
+
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            #sidebar a{
+                text-decoration: none;
+                color: black;
+            }
+
+            #footer{
+                background: lightsalmon;
+
+                padding: 5px 10p;
+                text-align: right;
+
+                clear: both;
+            }
+            
+            @media screen and (max-width:1020px){
+                #wrapper{
+                    width: 800px;
+                }
+                #content{
+                    width:80%;
+                }
+                #sidebar{
+                    width:18%;
+                }
+
+            }
+
+            @media screen and (max-width:820px){
+                #wrapper{
+                    width:500px;
+                }
+                #content{
+                    width: 65%;
+                }
+                #sidebar{
+                    width:34%;
+                }
+            }
+
+            @media screen and (max-width:510px){
+                #wrapper{
+                    width:auto;
+                }
+                #content{
+                    width: 100%;
+                    float: none;
+                }
+                #sidebar{
+                    width:100%;
+                    float: none;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            
+            <div id="header">
+                <h1>Darshi</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li> 
+                    <li><a href="">About Us</a></li> 
+                    <li><a href="">Gallery</a></li> 
+                    <li><a href="">Contact Us</a></li> 
+                </ul>
+            </div> 
+            <div id="content">
+                <h2>Design Basic Layout</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            </div>
+            <div id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li> 
+                    <li><a href="">About Us</a></li> 
+                    <li><a href="">Gallery</a></li> 
+                    <li><a href="">Contact Us</a></li> 
+                </ul>
+            </div>
+            <div id="footer">
+                darshi@copyright 2023.
+            </div>
+        </div>
+    </body>
+</html>
